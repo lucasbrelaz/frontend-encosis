@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+Site onepage construído no minicurso Desmistificando o Front-End,
+durante o Encontro Regional de Computação e Sistemas de Informação - ENCOSIS 2017,
+ministrado pelo Designer Lucas Brelaz.
+http://www.lucasbrelaz.com
+http://youtube.com/lucasbrelaz
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Lucas R. Brelaz">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Meu site</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#box2">Sobre</a></li>
+                <li><a href="#box3">Serviços</a></li>
+                <li><a href="#box4">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section id="box1" class="apresentacao">
+            <p>
+                Olá!
+            </p>
+            <h1>Meu nome é Lucas Brelaz</h1>
+            <h2>Sou <span class="destaque">designer</span> e <span class="destaque">programador</span></h2>
+            <h3>Site fictício. #ENCOSIS2017</h3>
+        </section>
+
+        <section id="box2" class="sobre">
+            <div class="left">
+                <p>
+                    Graduado em design gráfico, pela UniNorte Laureate, em Manaus, <strong>Brelaz</strong> também possui conhecimento do curso técnico na área de informática, com ênfase em desenvolvimento de software, pela Escola Fucapi.
+                </p>
+            </div>
+            <div class="right">
+                <img class="redonda" src="img/lucasbrelaz_avatar.jpg" alt="Foto pessoa">
+            </div>
+        </section>
+
+        <section id="box3" class="servicos">
+            <div class="servico">
+                <h2>Sistemas Web</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus nisi, explicabo, sed tenetur facere reiciendis ipsa, praesentium quam deserunt sit minima totam error enim commodi in tempora dolorum quaerat?
+                </p>
+            </div>
+
+            <div class="servico">
+                <h2>Design Responsivo</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus nisi, explicabo, sed tenetur facere reiciendis ipsa, praesentium quam deserunt sit minima totam error enim commodi in tempora dolorum quaerat?
+                </p>
+            </div>
+
+            <div class="servico">
+                <h2>Projetos Gráficos</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus nisi, explicabo, sed tenetur facere reiciendis ipsa, praesentium quam deserunt sit minima totam error enim commodi in tempora dolorum quaerat?
+                </p>
+            </div>
+
+            <div class="servico">
+                <h2>Social Media</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus nisi, explicabo, sed tenetur facere reiciendis ipsa, praesentium quam deserunt sit minima totam error enim commodi in tempora dolorum quaerat?
+                </p>
+            </div>
+        </section>
+
+        <section id="box4" class="contato">
+            <h2>Entre em contato</h2>
+            <form method="GET" action="">
+                <input type="text" id="nome" placeholder="Nome">
+                <input type="text" id="email" placeholder="Email">
+                <textarea name="msg" id="msg"></textarea>
+                <div class="center">
+                    <button type="submit" id="enviar">Enviar mensagem</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
